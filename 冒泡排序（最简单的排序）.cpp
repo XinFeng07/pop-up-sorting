@@ -1,5 +1,6 @@
 #include<iostream>
 #include<cstdio>
+#include<stdlib.h>
 using namespace std;
 int a[1000],n;
 void n_2()
@@ -19,7 +20,7 @@ void n_2()
 }
 int main()
 {
-	cout<<"请在第一行输入数对个数，再在第二行输入你需要排列的数字，用空格间隔"<<endl;
+	cout<<"璇峰湪绗竴琛岃緭鍏ユ暟瀵逛釜鏁帮紝鍐嶅湪绗簩琛岃緭鍏ヤ綘闇�瑕佹帓鍒楃殑鏁板瓧锛岀敤绌烘牸闂撮殧"<<endl;
 	cin>>n;
 	for (int i=1;i<=n;i++)
 	{
@@ -29,5 +30,7 @@ int main()
 	for (int i=1;i<=n;i++)
 	{
 		cout<<a[i]<<" ";
+		cout<<endl;
 	}
+	system("pause");
 }
